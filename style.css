@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.lista_de_aulas {
+    margin: 20px;
+    font-size: 30px;
+}
