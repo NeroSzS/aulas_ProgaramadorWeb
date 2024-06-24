@@ -1,12 +1,21 @@
 * {
     text-decoration: none;
+    color: white;
+
 }
 
 body {
     background-color: black;
-    color: white;
 }
 
-a {
-    color: white;
+.sublinhado {
+    text-decoration: underline;
+}
+
+.verde {
+    color: greenyellow;
+}
+
+#maiusculas {
+    text-transform: uppercase;
 }
