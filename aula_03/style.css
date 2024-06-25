@@ -1,0 +1,28 @@
+body {
+    background-image: url(imgs/Background-Sites.jpg);
+    background-color: var(--cor-primaria);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-bottom: 300px;
+}
+
+:root {
+    --cor-primaria: #73abd2;
+    --cor-secundaria:#a6d5e9;
+    --cor-tercearia:#d9ffff;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+.verde {
+    color: var(--cor-tercearia);
+}
+#maiusculas {
+    text-transform: uppercase;
+}
+
+li::marker {
+    color: var(--cor-secundaria);
+}
