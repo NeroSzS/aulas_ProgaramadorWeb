@@ -4,6 +4,10 @@
     --cor-tercearia:#d9ffff;
 }
 
+* {
+    text-decoration: none;
+}
+
 body {
     background-image: url(imgs/Background-Sites.jpg);
     background-color: var(--cor-primaria);
@@ -31,8 +35,9 @@ nav > a {
     padding: 10px;
     color: white;
     text-transform: uppercase;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
 }
-
 nav > a:hover {
     background-color:#516d51;
     padding: 11px;
