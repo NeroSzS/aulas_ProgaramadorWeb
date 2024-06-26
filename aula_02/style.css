@@ -26,11 +26,18 @@ nav > a {
     padding: 10px;
     color: white;
     text-transform: uppercase;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
 }
 
 nav > a:hover {
     background-color:#516d51;
     padding: 11px;
+}
+
+h1 {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
 }
 
 .sublinhado {

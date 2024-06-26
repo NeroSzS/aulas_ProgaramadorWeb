@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     text-decoration: none;
 }
@@ -20,9 +22,17 @@ nav > a {
     padding: 10px;
     color: white;
     text-transform: uppercase;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+
 }
 
 nav > a:hover {
     background-color:#516d51;
     padding: 11px;
+}
+
+h1 {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
 }

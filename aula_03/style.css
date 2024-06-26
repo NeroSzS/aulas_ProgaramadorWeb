@@ -38,6 +38,11 @@ nav > a:hover {
     padding: 11px;
 }
 
+p {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+}
+
 .sublinhado {
     text-decoration: underline;
 }

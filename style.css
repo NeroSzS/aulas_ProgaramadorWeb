@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +7,6 @@
     text-decoration: none;
     list-style: none;
     color: white;
-
 }
 
 body {
@@ -22,6 +23,8 @@ nav {
 }
 
 h1 {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
     font-size: 50px;
     text-transform: uppercase;
 }
@@ -29,4 +32,5 @@ h1 {
 .lista_de_aulas {
     margin: 20px;
     font-size: 30px;
+    font-family: "Ubuntu Mono", monospace;
 }
