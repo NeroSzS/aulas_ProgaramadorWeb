@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav > a {
+    background-color:#505750;
+    color: #fff;
+    border:none; 
+    border-radius:10px;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+}
+nav > a:hover {
+    background-color:#516d51;
+    padding: 11px;
+}
+
+#formulario {
+    margin-top: 20px;
+    display: flex;
+}
+
+#formulario > form {
+    display: flex;
+    flex-direction: column;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex Box</title>
+    <title>Formulário</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,28 +13,24 @@
         <a href="../aula_01/index.html">Aula_01</a>
         <a href="../aula_02/index.html">Aula_02</a>
         <a href="../aula_03/index.html">Aula_03</a>
-        <a href="index.html">Aula_04</a>
-        <a href="../aula_05/index.html">Aula_05</a>
+        <a href="../aula_04/index.html">Aula_04</a>
+        <a href="index.html">Aula_05</a>
     </nav>
 
-    <div class="flexivel">
-        <div class="filho-flex">1</div>
-        <div class="filho-flex">2</div>
-        <div class="filho-flex">3</div>
-        <div class="filho-flex">4</div>
-        <div class="filho-flex">5</div>
-        <div class="filho-flex">6</div>
-        <div class="filho-flex">7</div>
-        <div class="filho-flex">8</div>
-        <div class="filho-flex">9</div>
-        <div class="filho-flex">10</div>
-    </div>
+    <div id="formulario">
+        <form action="">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
 
-    <hr>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
 
-    <div class="grade">
-        <div class="coluna1"></div>
-        <div class="coluna2"></div>
+            <label for="numero">Número</label>
+            <input type="number" name="numero" id="numero">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </form>
     </div>
 </body>
 </html>
